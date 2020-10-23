@@ -7,6 +7,8 @@ node_js: "14"
 addons:
   artifacts:
     s3_region: "eu-west-3"
+    paths:
+    - ./coverage/lcov-report
 
 cache:
   directories:

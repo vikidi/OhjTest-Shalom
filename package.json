@@ -7,7 +7,7 @@
   "scripts": {
     "test": "jest --verbose --forceExit --detectOpenHandles",
     "test:coverage": "jest --coverage --verbose --forceExit --detectOpenHandles",
-    "test:coveralls": "jest --coverage --verbose --forceExit --detectOpenHandles && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
+    "test:coveralls": "jest --coverage --verbose --forceExit --detectOpenHandles && cat ./coverage/lcov.info | coveralls"
   },
   "author": "",
   "license": "MIT",
