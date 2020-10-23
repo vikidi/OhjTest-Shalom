@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "jest --verbose --forceExit --detectOpenHandles",
-    "test:coverage": "jest --coverage --verbose --forceExit --detectOpenHandles",
-    "test:coveralls": "jest --coverage --verbose --forceExit --detectOpenHandles && cat ./coverage/lcov.info | coveralls"
+    "test:coverage": "mkdir coverage && jest --coverage --verbose --forceExit --detectOpenHandles --no-color 2>./coverage/jest-result.txt",
+    "test:coveralls": "npm test:coverage && cat ./coverage/lcov.info | coveralls"
   },
   "author": "",
   "license": "MIT",

@@ -31,6 +31,7 @@ Travis CI runs tests using command
 ```
 npm run test:coveralls
 ```
+Lastly Travis CI uploads the test and coverage reports to AWS S3 bucket https://s3.console.aws.amazon.com/s3/buckets/ohj-test-shalom/
 ## Contributors
 Contributors to the tests (not to the library) are:
 

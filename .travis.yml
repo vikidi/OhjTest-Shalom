@@ -8,6 +8,7 @@ addons:
   artifacts:
     paths:
     - ./coverage/lcov-report
+    - ./coverage/jest-result.txt
 
 cache:
   directories:
