@@ -7,7 +7,7 @@
   "scripts": {
     "test": "jest --verbose --forceExit --detectOpenHandles",
     "test:coverage": "rm -rf coverage && mkdir coverage && jest --coverage --verbose --forceExit --detectOpenHandles --no-color 2>./coverage/jest-result.txt",
-    "test:coveralls": "npm run test:coverage && cat ./coverage/lcov.info | coveralls"
+    "test:coveralls": "npm run test:coverage && coveralls < coverage/lcov.info"
   },
   "author": "",
   "license": "MIT",
