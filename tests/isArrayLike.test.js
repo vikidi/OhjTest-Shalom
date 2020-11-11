@@ -1,5 +1,16 @@
 import isArrayLike from '../src/isArrayLike';
 
+/* Documentation Notes
+ * 
+ * 
+ */
+
 describe('isArrayLike()', () => {
-  test.todo('')
+  describe('positive tests', () => {
+    test.todo('')
+  })
+
+  describe('negative tests', () => {
+    test.todo('')
+  })
 })

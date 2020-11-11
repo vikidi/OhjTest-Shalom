@@ -1,5 +1,16 @@
 import isBoolean from '../src/isBoolean';
 
+/* Documentation Notes
+ * 
+ * 
+ */
+
 describe('isBoolean()', () => {
-  test.todo('')
+  describe('positive tests', () => {
+    test.todo('')
+  })
+
+  describe('negative tests', () => {
+    test.todo('')
+  })
 })

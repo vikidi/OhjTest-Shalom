@@ -1,5 +1,16 @@
 import words from '../src/words';
 
+/* Documentation Notes
+ * 
+ * 
+ */
+
 describe('words()', () => {
-  test.todo('')
+  describe('positive tests', () => {
+    test.todo('')
+  })
+
+  describe('negative tests', () => {
+    test.todo('')
+  })
 })

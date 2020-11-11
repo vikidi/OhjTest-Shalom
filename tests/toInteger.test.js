@@ -1,5 +1,16 @@
 import toInteger from '../src/toInteger';
 
+/* Documentation Notes
+ * 
+ * 
+ */
+
 describe('toInteger()', () => {
-  test.todo('')
+  describe('positive tests', () => {
+    test.todo('')
+  })
+
+  describe('negative tests', () => {
+    test.todo('')
+  })
 })

@@ -1,5 +1,16 @@
 import isBuffer from '../src/isBuffer';
 
+/* Documentation Notes
+ * 
+ * 
+ */
+
 describe('isBuffer()', () => {
-  test.todo('')
+  describe('positive tests', () => {
+    test.todo('')
+  })
+
+  describe('negative tests', () => {
+    test.todo('')
+  })
 })

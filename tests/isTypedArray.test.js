@@ -1,5 +1,16 @@
 import isTypedArray from '../src/isTypedArray';
 
+/* Documentation Notes
+ * 
+ * 
+ */
+
 describe('isTypedArray()', () => {
-  test.todo('')
+  describe('positive tests', () => {
+    test.todo('')
+  })
+
+  describe('negative tests', () => {
+    test.todo('')
+  })
 })

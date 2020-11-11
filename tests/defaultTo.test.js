@@ -1,5 +1,16 @@
 import defaultTo from '../src/defaultTo';
 
+/* Documentation Notes
+ * 
+ * 
+ */
+
 describe('defaultTo()', () => {
-  test.todo('')
+  describe('positive tests', () => {
+    test.todo('')
+  })
+
+  describe('negative tests', () => {
+    test.todo('')
+  })
 })

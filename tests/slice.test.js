@@ -1,5 +1,16 @@
 import slice from '../src/slice';
 
+/* Documentation Notes
+ * 
+ * 
+ */
+
 describe('slice()', () => {
-  test.todo('')
+  describe('positive tests', () => {
+    test.todo('')
+  })
+
+  describe('negative tests', () => {
+    test.todo('')
+  })
 })

@@ -1,5 +1,16 @@
 import toString from '../src/toString';
 
+/* Documentation Notes
+ * 
+ * 
+ */
+
 describe('toString()', () => {
-  test.todo('')
+  describe('positive tests', () => {
+    test.todo('')
+  })
+
+  describe('negative tests', () => {
+    test.todo('')
+  })
 })

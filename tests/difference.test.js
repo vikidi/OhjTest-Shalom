@@ -1,5 +1,16 @@
 import difference from '../src/difference';
 
+/* Documentation Notes
+ * 
+ * 
+ */
+
 describe('difference()', () => {
-  test.todo('')
+  describe('positive tests', () => {
+    test.todo('')
+  })
+
+  describe('negative tests', () => {
+    test.todo('')
+  })
 })

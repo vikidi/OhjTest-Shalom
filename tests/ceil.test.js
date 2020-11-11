@@ -1,5 +1,16 @@
 import ceil from '../src/ceil';
 
+/* Documentation Notes
+ * 
+ * 
+ */
+
 describe('ceil()', () => {
-  test.todo('')
+  describe('positive tests', () => {
+    test.todo('')
+  })
+
+  describe('negative tests', () => {
+    test.todo('')
+  })
 })

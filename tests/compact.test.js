@@ -1,5 +1,16 @@
 import compact from '../src/compact';
 
+/* Documentation Notes
+ * 
+ * 
+ */
+
 describe('compact()', () => {
-  test.todo('')
+  describe('positive tests', () => {
+    test.todo('')
+  })
+
+  describe('negative tests', () => {
+    test.todo('')
+  })
 })

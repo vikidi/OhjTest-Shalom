@@ -1,5 +1,16 @@
 import isDate from '../src/isDate';
 
+/* Documentation Notes
+ * 
+ * 
+ */
+
 describe('isDate()', () => {
-  test.todo('')
+  describe('positive tests', () => {
+    test.todo('')
+  })
+
+  describe('negative tests', () => {
+    test.todo('')
+  })
 })

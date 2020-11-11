@@ -1,5 +1,16 @@
 import filter from '../src/filter';
 
+/* Documentation Notes
+ * 
+ * 
+ */
+
 describe('filter()', () => {
-  test.todo('')
+  describe('positive tests', () => {
+    test.todo('')
+  })
+
+  describe('negative tests', () => {
+    test.todo('')
+  })
 })

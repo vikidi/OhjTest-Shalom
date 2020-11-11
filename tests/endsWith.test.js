@@ -1,5 +1,16 @@
 import endsWith from '../src/endsWith';
 
+/* Documentation Notes
+ * 
+ * 
+ */
+
 describe('endsWith()', () => {
-  test.todo('')
+  describe('positive tests', () => {
+    test.todo('')
+  })
+
+  describe('negative tests', () => {
+    test.todo('')
+  })
 })

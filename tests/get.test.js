@@ -1,5 +1,16 @@
 import get from '../src/get';
 
+/* Documentation Notes
+ * 
+ * 
+ */
+
 describe('get()', () => {
-  test.todo('')
+  describe('positive tests', () => {
+    test.todo('')
+  })
+
+  describe('negative tests', () => {
+    test.todo('')
+  })
 })

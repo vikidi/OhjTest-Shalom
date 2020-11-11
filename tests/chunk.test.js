@@ -1,5 +1,16 @@
 import chunk from '../src/chunk';
 
+/* Documentation Notes
+ * 
+ * 
+ */
+
 describe('chunk()', () => {
-  test.todo('')
+  describe('positive tests', () => {
+    test.todo('')
+  })
+
+  describe('negative tests', () => {
+    test.todo('')
+  })
 })

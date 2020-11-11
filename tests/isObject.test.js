@@ -1,5 +1,16 @@
 import isObject from '../src/isObject';
 
+/* Documentation Notes
+ * 
+ * 
+ */
+
 describe('isObject()', () => {
-  test.todo('')
+  describe('positive tests', () => {
+    test.todo('')
+  })
+
+  describe('negative tests', () => {
+    test.todo('')
+  })
 })

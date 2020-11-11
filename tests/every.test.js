@@ -1,5 +1,16 @@
 import every from '../src/every';
 
+/* Documentation Notes
+ * 
+ * 
+ */
+
 describe('every()', () => {
-  test.todo('')
+  describe('positive tests', () => {
+    test.todo('')
+  })
+
+  describe('negative tests', () => {
+    test.todo('')
+  })
 })
