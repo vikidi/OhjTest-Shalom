@@ -19,7 +19,7 @@ import camelCase from '../src/camelCase';
 
 describe('camelCase()', () => {
   describe('positive tests', () => {
-    test.skip('single word', () => {
+    test('single word', () => {
       expect(camelCase('string')).toBe('string')
     })
 
@@ -47,7 +47,7 @@ describe('camelCase()', () => {
       expect(camelCase('.,&%#string-/test+=)`´')).toBe('stringTest')
     })
 
-    test.skip('numbers', () => {
+    test('numbers', () => {
       expect(camelCase('42string91 test52')).toBe('stringTest')
     })
   })
@@ -57,7 +57,7 @@ describe('camelCase()', () => {
       expect(camelCase('')).toBe('')
     })
 
-    test.skip('null as input', () => {
+    test('null as input', () => {
       expect(camelCase(null)).toBe('')
     })
   })

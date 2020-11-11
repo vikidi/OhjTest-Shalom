@@ -18,19 +18,22 @@ Testable library is in src/ folder. Inside that is .internal/ folder, which is n
 
 To run test normally use
 ```
-npm -s test
+npm test
 ```
 To run tests with coverage report use
 ```
-npm -s run test:coverage
+npm run test:coverage
 ```
--s / -silent flag should be used to avoid npm complaining about test errors as it's own errors.
 ## Pipeline
 This repository uses Travis CI pipeline. It runs test and generates test reports to https://travis-ci.com/github/vikidi/OhjTest-Shalom. It also uses Coveralls to generate coverage reports to https://coveralls.io/github/vikidi/OhjTest-Shalom.
 
 Travis CI runs tests using command
 ```
-npm -s run test:coveralls
+npm run test:coveralls
+```
+and uploads coverage reports to coveralls with 
+```
+npm run test:cov-report
 ```
 Lastly Travis CI uploads the test and coverage reports to AWS S3 bucket https://s3.console.aws.amazon.com/s3/buckets/ohj-test-shalom/
 ## Contributors

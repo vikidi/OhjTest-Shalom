@@ -18,7 +18,7 @@ describe('capitalize()', () => {
       expect(capitalize('test')).toBe('Test')
     })
 
-    test.skip('spaces around word', () => {
+    test('spaces around word', () => {
       expect(capitalize('    test    ')).toBe('Test')
     })
 
@@ -40,7 +40,7 @@ describe('capitalize()', () => {
       expect(capitalize('')).toBe('')
     })
 
-    test.skip('null as input', () => {
+    test('null as input', () => {
       expect(capitalize(null)).toBe('')
     })
   })
