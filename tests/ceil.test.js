@@ -2,7 +2,7 @@ import ceil from '../src/ceil';
 
 /* Documentation Notes
  * 
- * 
+ * Null or undefined value handling is not documented.
  */
 
 /* Found Errors
