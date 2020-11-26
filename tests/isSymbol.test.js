@@ -5,6 +5,11 @@ import isSymbol from '../src/isSymbol';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('isSymbol()', () => {
   describe('positive tests', () => {
     test.todo('')

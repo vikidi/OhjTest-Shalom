@@ -5,6 +5,11 @@ import isArrayLikeObject from '../src/isArrayLikeObject';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('isArrayLikeObject()', () => {
   describe('positive tests', () => {
     test.todo('')

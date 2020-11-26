@@ -5,6 +5,11 @@ import reduce from '../src/reduce';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('reduce()', () => {
   describe('positive tests', () => {
     test.todo('')

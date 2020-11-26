@@ -5,6 +5,11 @@ import isArguments from '../src/isArguments';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('isArguments()', () => {
   describe('positive tests', () => {
     test.todo('')

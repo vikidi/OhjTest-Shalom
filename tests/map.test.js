@@ -5,6 +5,11 @@ import map from '../src/map';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('map()', () => {
   describe('positive tests', () => {
     test.todo('')

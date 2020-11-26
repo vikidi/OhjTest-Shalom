@@ -5,6 +5,11 @@ import isObject from '../src/isObject';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('isObject()', () => {
   describe('positive tests', () => {
     test.todo('')

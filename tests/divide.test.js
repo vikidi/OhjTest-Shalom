@@ -5,6 +5,11 @@ import divide from '../src/divide';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('divide()', () => {
   describe('positive tests', () => {
     test.todo('')

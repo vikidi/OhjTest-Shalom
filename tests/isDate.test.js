@@ -5,6 +5,11 @@ import isDate from '../src/isDate';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('isDate()', () => {
   describe('positive tests', () => {
     test.todo('')

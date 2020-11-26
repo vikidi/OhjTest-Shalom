@@ -5,6 +5,11 @@ import every from '../src/every';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('every()', () => {
   describe('positive tests', () => {
     test.todo('')

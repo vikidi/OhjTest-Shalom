@@ -5,6 +5,11 @@ import isObjectLike from '../src/isObjectLike';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('isObjectLike()', () => {
   describe('positive tests', () => {
     test.todo('')

@@ -5,6 +5,11 @@ import memoize from '../src/memoize';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('memoize()', () => {
   describe('positive tests', () => {
     test.todo('')

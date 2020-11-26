@@ -5,6 +5,11 @@ import eq from '../src/eq';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('eq()', () => {
   describe('positive tests', () => {
     test.todo('')

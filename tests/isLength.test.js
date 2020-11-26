@@ -5,6 +5,11 @@ import isLength from '../src/isLength';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('isLength()', () => {
   describe('positive tests', () => {
     test.todo('')

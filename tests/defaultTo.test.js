@@ -5,6 +5,11 @@ import defaultTo from '../src/defaultTo';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('defaultTo()', () => {
   describe('positive tests', () => {
     test.todo('')

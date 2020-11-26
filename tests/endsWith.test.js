@@ -5,6 +5,11 @@ import endsWith from '../src/endsWith';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('endsWith()', () => {
   describe('positive tests', () => {
     test.todo('')

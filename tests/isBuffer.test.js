@@ -5,6 +5,11 @@ import isBuffer from '../src/isBuffer';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('isBuffer()', () => {
   describe('positive tests', () => {
     test.todo('')

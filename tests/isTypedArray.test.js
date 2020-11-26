@@ -5,6 +5,11 @@ import isTypedArray from '../src/isTypedArray';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('isTypedArray()', () => {
   describe('positive tests', () => {
     test.todo('')

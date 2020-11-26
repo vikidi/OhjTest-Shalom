@@ -5,6 +5,11 @@ import isBoolean from '../src/isBoolean';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('isBoolean()', () => {
   describe('positive tests', () => {
     test.todo('')

@@ -5,6 +5,11 @@ import upperFirst from '../src/upperFirst';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('upperFirst()', () => {
   describe('positive tests', () => {
     test.todo('')

@@ -5,6 +5,11 @@ import words from '../src/words';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('words()', () => {
   describe('positive tests', () => {
     test.todo('')

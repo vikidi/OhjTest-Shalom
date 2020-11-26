@@ -5,6 +5,11 @@ import compact from '../src/compact';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('compact()', () => {
   describe('positive tests', () => {
     test.todo('')

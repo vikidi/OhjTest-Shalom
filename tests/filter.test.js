@@ -5,6 +5,11 @@ import filter from '../src/filter';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('filter()', () => {
   describe('positive tests', () => {
     test.todo('')

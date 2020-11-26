@@ -5,6 +5,11 @@ import toInteger from '../src/toInteger';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('toInteger()', () => {
   describe('positive tests', () => {
     test.todo('')

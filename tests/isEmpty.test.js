@@ -5,6 +5,11 @@ import isEmpty from '../src/isEmpty';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('isEmpty()', () => {
   describe('positive tests', () => {
     test.todo('')

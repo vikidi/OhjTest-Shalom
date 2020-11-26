@@ -5,6 +5,11 @@ import countBy from '../src/countBy';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('countBy()', () => {
   describe('positive tests', () => {
     test.todo('')

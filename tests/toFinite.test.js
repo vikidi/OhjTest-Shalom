@@ -5,6 +5,11 @@ import toFinite from '../src/toFinite';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('toFinite()', () => {
   describe('positive tests', () => {
     test.todo('')

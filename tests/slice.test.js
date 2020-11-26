@@ -5,6 +5,11 @@ import slice from '../src/slice';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('slice()', () => {
   describe('positive tests', () => {
     test.todo('')

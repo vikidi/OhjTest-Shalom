@@ -5,6 +5,11 @@ import ceil from '../src/ceil';
  * 
  */
 
+/* Found Errors
+ * 
+ * 
+ */
+
 describe('ceil()', () => {
   describe('positive tests', () => {
     test.todo('')
