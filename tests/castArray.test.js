@@ -9,7 +9,7 @@ import castArray from '../src/castArray';
  *
  * Casts array to another array resulting in "double array". Should not. Label: Error
  * 
- * Casting empty parameter list adds "undefined" to the array. Label: Error. 
+ * Casting empty parameter list adds "undefined" to the array. Label: Incorrectly handled.
  */
 
 describe('castArray()', () => {

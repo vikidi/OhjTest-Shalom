@@ -2,12 +2,12 @@ import ceil from '../src/ceil';
 
 /* Documentation Notes
  * 
- * Null or undefined value handling is not documented.
+ * Null or undefined value handling is not documented. Label: Missing documentation.
  */
 
 /* Found Errors
  * 
- * Null value does not return NaN. Label: Warning.
+ * Null value does not return NaN. Label: Incorrect handling.
  */
 
 describe('ceil()', () => {
