@@ -7,7 +7,7 @@ import ceil from '../src/ceil';
 
 /* Found Errors
  * 
- * 
+ * Null value does not return NaN. Label: Warning.
  */
 
 describe('ceil()', () => {
@@ -47,11 +47,19 @@ describe('ceil()', () => {
 
   describe('negative tests', () => {
     test('Try ceil null value', () => {
-      expect(null).toBe(null);
+      expect(ceil(null)).toBe(NaN);
     })
 
     test('Try ceil undefined value', () => {
-      expect(undefined).toBe(undefined);
+      expect(ceil(undefined)).toBe(NaN);
+    })
+
+    test('Null precision', () => {
+      expect(ceil(4.006, null)).toBe(5);
+    })
+
+    test('Undefined precision', () => {
+      expect(ceil(4.006, undefined)).toBe(5);
     })
   })
 })
