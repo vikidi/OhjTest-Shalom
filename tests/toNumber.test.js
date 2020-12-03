@@ -2,6 +2,7 @@ import toNumber from '../src/toNumber';
 
 /* Documentation Notes
  *
+ * Warning:
  * No documentation on arrays, eventhough they do work.
  */
 
