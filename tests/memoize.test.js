@@ -2,7 +2,8 @@ import memoize from '../src/memoize';
 
 /* Documentation Notes
  * 
- * None
+ * Label: Warning
+ * Undocumented excpetion thrown.
  */
 
 /* Found Errors
@@ -41,6 +42,10 @@ describe('memoize()', () => {
 
     test('Memoize undefined', () => {
       expect(() => memoize().toMatchObject())
+    })
+
+    test('Throw error', () => {
+      expect(() => memoize(testObject, [])).toThrow(TypeError);
     })
   })
 })

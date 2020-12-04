@@ -20,8 +20,8 @@ describe('isBoolean()', () => {
       expect(isBoolean(1 === 1)).toBe(true)
     })
 
-    test('false is', () => {
-      expect(isBoolean(true)).toBe(true)
+    test('Boolean is', () => {
+      expect(isBoolean(new Boolean())).toBe(true)
     })
   })
 

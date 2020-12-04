@@ -58,5 +58,9 @@ describe('toNumber()', () => {
     test('Multi value array to number', () => {
       expect(toNumber([1,2,3])).toBe(NaN)
     })
+
+    test('Symbol to number', () => {
+      expect(toNumber(Symbol(2))).toBe(NaN)
+    })
   })
 })

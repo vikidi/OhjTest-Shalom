@@ -20,6 +20,10 @@ describe('endsWith()', () => {
       expect(endsWith('abc', 'c')).toBe(true);
     })
 
+    test('Should end 2', () => {
+      expect(endsWith('abc', 'c', 20)).toBe(true);
+    })
+
     test('Should end to certain point', () => {
       expect(endsWith('abc', 'a', 1)).toBe(true);
     })
@@ -27,7 +31,6 @@ describe('endsWith()', () => {
     test('Should end to itself', () => {
       expect(endsWith('abc', 'abc')).toBe(true);
     })
-
   })
 
   describe('negative tests', () => {
@@ -41,6 +44,10 @@ describe('endsWith()', () => {
 
     test('undefined arguments', () => {
       expect(() => endsWith()).toThrow(TypeError);
+    })
+
+    test('Negative position', () => {
+      expect(endsWith('abc', 'a', -1)).toBe(false);
     })
   })
 })

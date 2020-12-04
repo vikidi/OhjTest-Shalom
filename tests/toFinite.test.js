@@ -30,6 +30,10 @@ describe('toFinite()', () => {
       expect(toFinite(Infinity)).toBe(Number.MAX_VALUE);
     })
 
+    test('Max to to finite', () => {
+      expect(toFinite(-Infinity)).toBe(-Number.MAX_VALUE);
+    })
+
     test('String float to finite', () => {
       expect(toFinite('3.3')).toBe(3.3);
     })

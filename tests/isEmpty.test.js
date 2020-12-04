@@ -12,10 +12,6 @@ import isEmpty from '../src/isEmpty';
 
 describe('isEmpty()', () => {
   describe('positive tests', () => {
-    /**
-     * Since arrays have length property, arrays provide
-     * tests also for string and collections.
-     */
     test('Empty array', () => {
       expect(isEmpty([])).toBe(true)
     })
@@ -24,10 +20,10 @@ describe('isEmpty()', () => {
       expect(isEmpty([2])).toBe(false)
     })
 
-    /**
-     * Since sets have size property, sets provide
-     * tests also for maps.
-     */
+    test('Object', () => {
+      expect(isEmpty({a: 2})).toBe(false)
+    })
+
     test('Empty set', () => {
       expect(isEmpty(new Set)).toBe(true)
     })

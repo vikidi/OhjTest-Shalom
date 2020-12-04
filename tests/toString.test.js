@@ -31,8 +31,16 @@ describe('toString()', () => {
     expect(toString({a: 2})).toBe('{a, 2}')
   })
 
+  test('Symbol to string', () => {
+    expect(toString(Symbol(3))).toBe('3')
+  })
+
   test('Array to string', () => {
     expect(toString([1,2,3])).toBe('1,2,3')
+  })
+
+  test('Array including null to string', () => {
+    expect(toString([null])).toBe("")
   })
 
   test('Num to string', () => {
