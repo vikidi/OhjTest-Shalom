@@ -2,7 +2,7 @@ import toInteger from '../src/toInteger';
 
 /* Documentation Notes
  *
- * Warning:
+ * Label: Warning
  * No documentation on NaN parameter return values, but one can assume it is 0.
  * No documentation on arrays, though they do work.
  */

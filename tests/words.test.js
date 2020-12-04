@@ -2,7 +2,7 @@ import words from '../src/words';
 
 /* Documentation Notes
  *
-*  Severity: Warning from scale (Critical, Error, Warning)
+*  Label: Warning
  * Exceptions not documented.
  * Handling of incorrect values (null, undefined) not documented.
  */

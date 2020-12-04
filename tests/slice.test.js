@@ -2,7 +2,7 @@ import slice from '../src/slice';
 
 /* Documentation Notes
  *
- * Severity: "Warning" from scale (Critical, Error, Warning) 
+ * Label: Warning
  * No documentation on wrong argument type return values.
  * 
  */

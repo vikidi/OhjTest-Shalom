@@ -2,12 +2,13 @@ import toString from '../src/toString';
 
 /* Documentation Notes
  *
- * Documentation is incorrect.
+ * Label: Error
+ * Documentation is incorrect. Check found errors.
  */
 
 /* Found Errors
  *
- * Severity: "Error" from scale (Critical, Error, Warning)
+ * Label: Error
  * Functionality does not match documentation:
  * By documentation, arguments of null or undefined should return empty string.
  * Instead, 'null' and 'undefined' returned.

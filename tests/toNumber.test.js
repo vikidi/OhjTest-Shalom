@@ -2,7 +2,7 @@ import toNumber from '../src/toNumber';
 
 /* Documentation Notes
  *
- * Warning:
+ * Label: Warning
  * No documentation on arrays, eventhough they do work.
  */
 

@@ -2,7 +2,7 @@ import upperFirst from '../src/upperFirst';
 
 /* Documentation Notes
  *
- * Severity: "Warning" from scale (Critical, Error, Warning)
+ * Label: Warning
  * Handling of incorrect values (null, undefined) not documented.
  */
 

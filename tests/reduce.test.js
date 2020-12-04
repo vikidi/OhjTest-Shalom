@@ -2,7 +2,7 @@ import reduce from '../src/reduce';
 
 /* Documentation Notes
  * 
- * Warning:
+ * Label: Warning
  * Documentation missing for return values of empty or null arrays/objects.
  */
 

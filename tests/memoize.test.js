@@ -2,12 +2,12 @@ import memoize from '../src/memoize';
 
 /* Documentation Notes
  * 
- * 
+ * None
  */
 
 /* Found Errors
  * 
- * 
+ * None
  */
 
 let testObject = {a: 1, b: 2, c:3}
@@ -35,6 +35,12 @@ describe('memoize()', () => {
   })
 
   describe('negative tests', () => {
-    test.todo('')
+    test('Memoize null', () => {
+      expect(() => memoize(null).toMatchObject(null))
+    })
+
+    test('Memoize undefined', () => {
+      expect(() => memoize().toMatchObject())
+    })
   })
 })
